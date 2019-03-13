@@ -10,6 +10,7 @@ public class AutoLoadServlet extends HttpServlet {
 	
 	@Override
 	public void init(ServletConfig config) throws ServletException {
+		//git测试
 		SDKConfig.getConfig().loadPropertiesFromSrc();// 从classpath加载acp_sdk.properties文件
 		super.init();
 	}
