@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ACPSample_QRC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ACPSample_QRC_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ACPSample_QRC" />
+          <element id="module-output" name="assets" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="apache_httpclient" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ACPSample_QRC/web/Web" />
+    </root>
+  </artifact>
+</component>
